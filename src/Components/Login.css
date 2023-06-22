@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+.page{
+    
+}
+
+.sign-text{
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+
+.signAcc-text{
+    margin-top : 1px;
+    font-size: 16px;
+    font-family: 'Lato' , sans-serif;
+}
+
+.btns{
+    padding-top : 30px;
+}
+
+.btn{
+    background-color: rgba(255,255,255,1);
+    border : none;
+    font-family: 'Montserrat' , sans-serif;
+    color : rgba(133,133,133,1);
+    border-radius: 10px;
+    width : 180x;
+    height : 30px;
+    margin : 10px;
+}
+
+.form{
+    background-color: rgba(255,255,255,1);
+    margin-top : 8%;
+    padding : 8%;
+}
+
+.label{
+    font-family: 'Lato' , sans-serif;
+    font-size : 16px;
+}
+
+input{
+    padding-left : 10px;
+    margin : 10px 0 10px 0;
+    width : 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius : 10px;
+    background-color: rgba(245,245,245,1);
+    font-family: 'Lato' , sans-serif;
+}
+
+input:focus{
+    background-color: rgba(234,234,234,1);
+}
+
+.blueBtn{
+    border : none;
+    background-color: rgba(255,255,255,1);
+    font-size : 16px;
+    font-family: 'Lato' , sans-serif;
+    color : rgba(52,107,212,1);
+    margin : 10px 0 20px 0;
+}
+
+.submitBtn{
+    width : 100%;
+    border-radius: 10px;
+    border : none;
+    outline : none;
+    height : 40px;
+    background-color: rgba(0,0,0,1);
+    font-size : 16px;
+    font-family: 'Montserrat' , sans-serif;
+    color: white;
+}
+
+.register{
+    font-size : 16px;
+    font-family: 'Lato' , sans-serif;
+    color : rgba(133,133,133,1);
+}
+
+.registerBtn{
+    background-color : var(--background, #F5F5F5)
+}

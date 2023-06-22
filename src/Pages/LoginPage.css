@@ -1,0 +1,33 @@
+.loginPage {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    top: 0;
+    overflow-y: scroll;
+}
+
+.left {
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+  
+  /* Control the right side */
+.right {
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background, #F5F5F5);
+}
+
+
+.centered {
+    position: absolute;
+    /* top: 25%;
+    left: 50%; */
+    text-align: left;
+} 
