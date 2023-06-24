@@ -76,7 +76,7 @@ export default function Dashboard() {
   const [chartData , setchartData] = useState([]);
 
     const getData = async() => {
-      const result = await axios.get('http://api.waqi.info/feed/shanghai/?token=demo');;
+      const result = await axios.get('https://api.waqi.info/feed/shanghai/?token=demo');;
       let temp = result.data.data.iaqi;
       let data1 = [];
       for(let key in temp){
