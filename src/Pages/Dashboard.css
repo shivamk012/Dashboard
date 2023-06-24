@@ -1,0 +1,33 @@
+.dashboard{
+    background-color: rgba(245,245,245,1);
+    height : 100%;
+    padding : 40px;
+}
+
+.container{
+    display: flex;
+}
+
+.side-bar{
+    flex-grow: 1;
+}
+
+.right-bar{
+    flex-grow: 2;
+    padding : 10px;
+}
+
+.cards{
+    height : 15%;
+}
+
+.chart{
+    height : 40%;
+    position: relative;
+    margin-top : 45px;
+    z-index: 10;
+}
+
+.footer-dashboard{
+    height: 30%;
+}

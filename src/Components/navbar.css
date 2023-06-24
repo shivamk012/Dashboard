@@ -1,0 +1,38 @@
+.navbar{
+    display: inline-flex;
+    width: 100%;
+    position: relative;
+    margin-top : -20px;
+}
+
+.leftnav{
+    display: flex;
+    font-size: 24px;
+    font-family: 'Montserrat' ,sans-serif;
+}
+
+.rightnav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.searchinput{
+    border: none;
+    outline: none;
+    background-color: rgba(255,255,255,1);
+    height : 30px;
+    border-radius: 10px;
+    margin : 0px 10px 10px 0px;
+}
+
+.icon{
+    margin : 0px 10px 5px 25px;
+    font-size : 1.5rem;
+}
+
+.usericon{
+    border-radius: 50%;
+    margin : 0px 0px 10px 10px;
+}

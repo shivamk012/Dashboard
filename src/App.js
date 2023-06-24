@@ -1,14 +1,16 @@
 import './App.css';
-import { GoogleOAuthProvider } from '@react-oauth/google';
-import LoginPage from './Pages/LoginPage';
+import { Routes, Route } from "react-router-dom"
+import GoogleAuth from './Components/GoogleAuth';
+import Dashboard from './Pages/Dashboard';
 
 function App() {
   return (
-    <GoogleOAuthProvider clientId="646436992804-tleglrtvnt8fg7lkag4kmpjqn91i7edu.apps.googleusercontent.com">
-      <div className="App">
-        <LoginPage/>
-      </div>
-    </GoogleOAuthProvider>
+    <div className="App">
+      <Routes>
+        <Route path="/" element={ <GoogleAuth/> } />
+        <Route path="/dashboard" element = {<Dashboard/>}/>
+      </Routes>
+    </div>
   );
 }
 

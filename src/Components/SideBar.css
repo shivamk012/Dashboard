@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+.SideBar{
+    background-color: #000;
+    height : 100%;
+    color : rgba(255,255,255,1);
+    font-family: 'Montserrat' , sans-serif;
+    border-radius: 30px;
+    width : 90%;
+    overflow: auto;
+    position: relative;
+}
+
+.pad{
+    padding: 20px 0 20px 50px;
+}
+
+.padchange{
+    /* padding : 150px 0px 10px 50px; */
+    margin : 0px 0px 5rem 20px; 
+    position: absolute;
+    bottom: 0;
+}

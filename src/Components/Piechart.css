@@ -1,0 +1,13 @@
+.left-footer-content{
+    display: flex;
+}
+
+.left-footer-section{
+    flex : 1;
+}
+
+.legend-content{
+    font-family: 'Montserrat' , sans-serif;
+    text-align: right;
+    margin : 1rem 10rem 0rem 2rem;
+}
