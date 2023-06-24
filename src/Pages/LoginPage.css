@@ -31,3 +31,17 @@
     left: 50%; */
     text-align: left;
 } 
+
+@media (max-width:600px){
+    .loginPage{
+        flex-direction: column;
+    }
+
+    .left{
+        flex : 1;
+    }
+    
+    .right{
+        flex : 1;
+    }
+}
