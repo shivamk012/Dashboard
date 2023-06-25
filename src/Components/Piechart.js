@@ -1,4 +1,4 @@
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
+import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 import './Piechart.css'
 
 export default function Piechart({data}) {
@@ -10,7 +10,7 @@ export default function Piechart({data}) {
     })
 
     const renderPercentage = percentage.map((num,index) => {
-        return <div className='legend-content'>
+        return <div key={index} className='legend-content'>
                     <div style={{"display" : "flex" , "justifyContent" : "center" , "margin" : "0px 0px 5px 0px"}}>
                     <div style={{"backgroundColor" : `${COLORS[index]}` , "borderRadius" : "50%" , "height" : "8px" , "width" : "8px" , "margin" : "5px 3px 0px 0px"}}></div> 
                     <div style={{"fontSize" : "14px" , "textTransform" : "capitalize"}}><b>{chartData[index].gases}</b></div>
@@ -22,7 +22,7 @@ export default function Piechart({data}) {
     return (
     <div style={{"width" : "100%" , "height" : "100%"}} className='left-footer-content'>
         <div className='left-footer-section'>
-            <ResponsiveContainer width={200} height={200}>
+            <ResponsiveContainer width="80%" height="80%">
             <PieChart width={400} height={400}>
             <Pie data={chartData} dataKey="concentration" outerRadius={60} fill="#8884d8">
                 {chartData.map((entry, index) => (

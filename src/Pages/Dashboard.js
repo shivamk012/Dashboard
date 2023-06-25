@@ -22,27 +22,32 @@ export default function Dashboard() {
     {
       text : "Dashboard",
       fontSize : 18,
-      img : <RiPieChartLine/>
+      img : <RiPieChartLine/>,
+      id : 1
     },
     {
       text : "Transactions",
       fontSize : 18,
-      img : <BsTags/>
+      img : <BsTags/>,
+      id : 2
     },
     {
       text : "Schedules",
       fontSize : 18,
-      img : <AiOutlineSchedule/>
+      img : <AiOutlineSchedule/>,
+      id : 3
     },
     {
       text : "Users",
       fontSize : 18,
-      img : <PiUserSwitchBold/>
+      img : <PiUserSwitchBold/>,
+      id : 4
     },
     {
       text : "Settings",
       fontSize : 18,
-      img : <FiSettings/>
+      img : <FiSettings/>,
+      id : 5
     },
   ]
 
