@@ -1,13 +1,13 @@
 .loginPage {
     height: 100%;
     width: 100%;
-    position: fixed;
+    position: absolute;
     display: flex;
     top: 0;
-    overflow-y: scroll;
 }
 
 .left {
+    height : 100vh;
     flex-grow: 2;
     display: flex;
     align-items: center;
@@ -17,6 +17,7 @@
   
   /* Control the right side */
 .right {
+    height: 100vh;
     flex-grow: 3;
     display: flex;
     justify-content: center;
@@ -32,16 +33,12 @@
     text-align: left;
 } 
 
-@media (max-width:600px){
+@media (max-width:770px){
     .loginPage{
-        flex-direction: column;
+        display: block;
     }
 
     .left{
-        flex : 1;
-    }
-    
-    .right{
-        flex : 1;
+        height : 50vh;
     }
 }
